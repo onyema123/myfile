@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    /* background-color: black; */
+}
+h1{
+    text-align: center;
+    
+}
+
+.image-view{
+    width: 30vw;
+    height: 60vh;
+}
+
+.space-up{
+    display: flex;
+    justify-content: space-between;
+    margin: 15rem;
+    margin-top: 6rem;
+}
+
+.adjust{
+    font-size: larger;
+    margin-left: 3rem;
+}
+label{
+    position: absolute;
+    width: 40vw;
+    height: 30vh;
+    right: 20rem;
+    top: 20rem;
+    border-radius: 4rem;
+}
+label:before{
+    position: absolute;
+    content: --;
+    width: 20rem;
+    height: 20rem;
+    border: 1rem solid black;
+    border-radius: 2rem;
+    background-color: rgb(3, 1, 1);
+
+}
+label.active:before{
+    left: 23rem;
+    background-color: #fcf8f8;
+
+}
+body.night{
+    background-color: #000000;
+    color: #ffffff;
+}
+#dark-switch{
+    position: absolute;
+    top: 35rem;
+    background-color: rgb(5, 5, 230);
+    border: none;
+    color: #fcf8f8;
+    border-radius: 2rem;
+}
